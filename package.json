@@ -1,12 +1,17 @@
 {
-  "name": "gulp-start",
+  "name": "master-po-remontu",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watching": "gulp watching",
+    "styles": " styles",
+    "browsersync": "browsersync",
+    "scripts": "scripts",
+    "images": "images",
+    "cleanDist": "cleanDist"
   },
-  "author": "Vadym Prokopchuk",
+  "author": "Vadym",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
@@ -15,8 +20,19 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
+    "gulp-jscs": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
     "gulp-sass": "^4.1.0",
     "gulp-uglify-es": "^2.0.0",
-    "jquery": "^3.5.1"
-  }
+    "jquery": "^3.5.1",
+    "jshint": "^2.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimBrikulya/master-po-remontu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VadimBrikulya/master-po-remontu/issues"
+  },
+  "homepage": "https://github.com/VadimBrikulya/master-po-remontu#readme"
 }
