@@ -1,0 +1,22 @@
+{
+  "name": "master-po-remontu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimBrikulya/master-po-remontu.git"
+  },
+  "author": "Vadym",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimBrikulya/master-po-remontu/issues"
+  },
+  "homepage": "https://github.com/VadimBrikulya/master-po-remontu#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
